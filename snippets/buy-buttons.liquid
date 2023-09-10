@@ -102,7 +102,9 @@
             </div>
           </button>
           {%- if show_dynamic_checkout -%}
-            {{ form | payment_button }}
+            {% if product.tags contains "retiroentienda" %}
+              {{ form | payment_button }}
+            {% endif %}
           {%- endif -%}
         </div>
       {%- endform -%}
