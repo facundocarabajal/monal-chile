@@ -106,7 +106,7 @@
         "template--20803307667763__34ee0ffe-902e-4a13-9b24-568d3311391d-slide-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/orcaaero_manillar_RAN18.gif",
+            "image": "{{ product.metafields.custom.pdp_banner.value }}",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
