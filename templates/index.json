@@ -1,5 +1,59 @@
 {
   "sections": {
+    "88a12dd2-437f-4384-95f7-053ceecc75d6": {
+      "type": "slideshow",
+      "blocks": {
+        "template--21005992493363__88a12dd2-437f-4384-95f7-053ceecc75d6-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Monal_blanco_sobre_negro.jpg",
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--21005992493363__88a12dd2-437f-4384-95f7-053ceecc75d6-slide-2": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--21005992493363__88a12dd2-437f-4384-95f7-053ceecc75d6-slide-1",
+        "template--21005992493363__88a12dd2-437f-4384-95f7-053ceecc75d6-slide-2"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -321,6 +375,7 @@
     }
   },
   "order": [
+    "88a12dd2-437f-4384-95f7-053ceecc75d6",
     "image_banner",
     "c0d121e4-302c-4f69-8d53-01cfc922f2c5",
     "c8a5a065-ea93-4928-9275-c4c099f525b7",
