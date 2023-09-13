@@ -89,6 +89,7 @@
         "2ecb3593-af58-426c-abc2-5315f9fbabcb",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/orcaaero_3_RAN18.gif",
         "image_overlay_opacity": 20,
