@@ -394,3 +394,19 @@ slider-component.slider-component-full-width {
 .slider-button--prev:not([disabled]):hover .icon {
   transform: rotate(90deg) scale(1.1);
 }
+
+//CUSTOMIZATIONS
+
+#shopify-section-template--16320363069671__1661044694d4cf233e slideshow-component>.slideshow__controls.slideshow__controls--top.slider-buttons.no-js-hidden {display:flex !important}
+
+#shopify-section-template--16320363069671__1661044694d4cf233e slideshow-component>.slideshow__controls.slideshow__controls--top.slider-buttons.no-js-hidden .slider-button[name],#shopify-section-template--16320363069671__1661044694d4cf233e slideshow-component>.slideshow__controls.slideshow__controls--top.slider-buttons.no-js-hidden .slider-counter{
+
+display:inline-block !important;
+
+width:fit-content !important;
+
+position:static !important;
+
+opacity:1 !important
+
+}
