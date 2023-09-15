@@ -3512,29 +3512,3 @@ details-disclosure > details {
   }
 }
 
-
-//customisations
-.slideshow__controls.slider-buttons.no-js-hidden.slideshow__controls--border-radius-mobile {
-    position: absolute;
-    z-index: 12222;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.slideshow__controls .dot {
-    border: #fff 1px solid;
-}
-
-.slider-counter__link.slider-counter__link--active .dot {
-    background: #fff;
-}
-
-.slideshow__controls .slider-button {
-    display: none;
-}
-
-.slideshow__controls.slideshow__controls--top.slider-buttons.no-js-hidden {
-    filter: invert(1);
-    background: #f0eded;
-}
