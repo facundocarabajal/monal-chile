@@ -3534,3 +3534,7 @@ details-disclosure > details {
     display: none;
 }
 
+.slideshow__controls.slideshow__controls--top.slider-buttons.no-js-hidden {
+    filter: invert(1);
+    background: #f0eded;
+}
