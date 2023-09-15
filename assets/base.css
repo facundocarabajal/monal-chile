@@ -3512,3 +3512,9 @@ details-disclosure > details {
   }
 }
 
+//CUSTOMIZATIONS
+@media (max-width: 768px) {
+  .banner__media{
+      position: inherit!important;
+  }
+}
