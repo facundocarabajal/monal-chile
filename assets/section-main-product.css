@@ -385,7 +385,11 @@ a.product__text {
   .product__info-container {
     max-width: 60rem;
   }
-
+  .product__title{
+    h1{
+      font-size: font-size: calc(var(--font-heading-scale) * 3rem);
+    }
+  }
   .product__info-container .price--on-sale .price-item--regular {
     font-size: 1.6rem;
   }
