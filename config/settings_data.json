@@ -141,6 +141,14 @@
     "content_for_index": [
 
     ],
+    "blocks": {
+      "16956713863069678183": {
+        "type": "shopify:\/\/apps\/gaf-store-pickup-delivery\/blocks\/gafcnc\/814a5443-079a-497e-9487-b2472454abb0",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    },
     "color_schemes": {
       "background-1": {
         "settings": {
