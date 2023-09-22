@@ -394,3 +394,16 @@ slider-component.slider-component-full-width {
 .slider-button--prev:not([disabled]):hover .icon {
   transform: rotate(90deg) scale(1.1);
 }
+
+/* CUSTOMIZATIONS */
+.slideshow__controls {
+  display: relative;
+  margin-top: -100px;
+  z-index: 2000;
+  position: relative;
+  border: none;
+}
+
+button.slideshow__autoplay.slider-button.no-js-hidden {
+  display: none;
+}
