@@ -398,12 +398,12 @@ slider-component.slider-component-full-width {
 /* CUSTOMIZATIONS */
 .slideshow__controls {
   display: relative;
-  margin-top: -100px;
+  margin-top: -3.1%;
   z-index: 2000;
   position: relative;
   border: none;
 }
 
 button.slideshow__autoplay.slider-button.no-js-hidden {
-  display: none;
+    display: none;
 }
