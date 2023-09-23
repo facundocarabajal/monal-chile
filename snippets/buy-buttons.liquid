@@ -103,6 +103,7 @@
           </button>
           {%- if show_dynamic_checkout -%}
             {% if product.tags contains "retiroentienda" %}
+            {% else %}
               {{ form | payment_button }}
             {% endif %}
           {%- endif -%}
