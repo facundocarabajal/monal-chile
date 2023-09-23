@@ -128,6 +128,7 @@
           data-cascade
         {% endif %}
       >
+      {% assign countProducts = 0 %}
         {%- if collection.products.size == 0 -%}
           <div class="collection collection--empty page-width" id="product-grid" data-id="{{ section.id }}">
             <div class="loading-overlay gradient"></div>
@@ -155,29 +156,85 @@
               "
             >
               {%- for product in collection.products -%}
+                {% assign countProducts = countProducts | plus: 1 %}
                 {% assign lazy_load = false %}
                 {%- if forloop.index > 2 -%}
                   {%- assign lazy_load = true -%}
                 {%- endif -%}
+                {% assign variantProduct = "" %}
+                {% assign variantProductImage = "" %} 
+                {% assign variantProductVideo = "" %}  
                 <li
-                  class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                  class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %} {% if countProducts == 7 and collection.metafields.custom.banner_image != blank or collection.metafields.custom.banner_video != blank %} anuncio-img-video{% endif %}"
                   {% if settings.animations_reveal_on_scroll %}
                     data-cascade
                     style="--animation-order: {{ forloop.index }};"
                   {% endif %}
                 >
-                  {% render 'card-product',
-                    card_product: product,
-                    media_aspect_ratio: section.settings.image_ratio,
-                    image_shape: section.settings.image_shape,
-                    show_secondary_image: section.settings.show_secondary_image,
-                    show_vendor: section.settings.show_vendor,
-                    show_rating: section.settings.show_rating,
-                    lazy_load: lazy_load,
-                    show_quick_add: section.settings.enable_quick_add,
-                    section_id: section.id
-                  %}
+                {% if countProducts == 7 and collection.metafields.custom.banner_image != blank or collection.metafields.custom.banner_video != blank %}
+                    {% assign variantProduct = product %}
+                    {% assign variantProductUrl = collection.metafields.custom.banner_link %}
+                    {% if collection.metafields.custom.banner_image != blank %}
+                      {% assign variantProductImage = collection.metafields.custom.banner_image | img_url: "master" %}
+                      <a href="{{ collection.metafields.custom.banner_link }}"><img loading="lazy" src="{{ collection.metafields.custom.banner_image | img_url: "master" }}"></a>
+                    {% else %}
+                      {% assign variantProductVideo = collection.metafields.custom.banner_video %}
+                      <a href="{{ collection.metafields.custom.banner_link }}">
+                        <video class="video" data-lazy-video="" playsinline="" loop="" data-video-autoplay="" autoplay="" muted="" title="">
+                          <source src="{{ collection.metafields.custom.banner_video }}" data-src="{{ collection.metafields.custom.banner_video }}">
+                          Sorry, your browser doesn't support embedded videos.
+                        </video>
+                      </a>
+                    {% endif %}
+                  {% else %}
+                    {% render 'card-product',
+                      card_product: product,
+                      media_aspect_ratio: section.settings.image_ratio,
+                      image_shape: section.settings.image_shape,
+                      show_secondary_image: section.settings.show_secondary_image,
+                      show_vendor: section.settings.show_vendor,
+                      show_rating: section.settings.show_rating,
+                      lazy_load: lazy_load,
+                      show_quick_add: section.settings.enable_quick_add,
+                      section_id: section.id
+                    %}
+                  {% endif %}
                 </li>
+                {% if variantProductImage != blank %}
+                  <li class="item_list mobile">
+                    <a href="{{ variantProductUrl }}"><img loading="lazy" src="{{ collection.metafields.custom.banner_image | img_url: "master" }}"></a>
+                  </li>
+                {% elsif  variantProductVideo != blank %}
+                  <li class="item_list mobile">
+                    <a href="{{ variantProductUrl }}">
+                      <video class="video" data-lazy-video="" playsinline="" loop="" data-video-autoplay="" autoplay="" muted="" title="">
+                        <source src="{{ collection.metafields.custom.banner_video }}" data-src="{{ collection.metafields.custom.banner_video }}">
+                        Sorry, your browser doesn't support embedded videos.
+                      </video>
+                    </a>
+                  </li>
+                {% endif %}
+                {% if variantProduct != blank %}
+                  <li
+                    class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                    {% if settings.animations_reveal_on_scroll %}
+                      data-cascade
+                      style="--animation-order: {{ forloop.index }};"
+                    {% endif %}
+                  >
+                    {% render 'card-product',
+                      card_product: product,
+                      media_aspect_ratio: section.settings.image_ratio,
+                      image_shape: section.settings.image_shape,
+                      show_secondary_image: section.settings.show_secondary_image,
+                      show_vendor: section.settings.show_vendor,
+                      show_rating: section.settings.show_rating,
+                      lazy_load: lazy_load,
+                      show_quick_add: section.settings.enable_quick_add,
+                      section_id: section.id
+                    %} 
+                  </li>
+                {% endif %}
               {%- endfor -%}
             </ul>
 
