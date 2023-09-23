@@ -524,8 +524,21 @@
               {{ 'sections.cart.update' | t }}
             </button>
           </noscript>
+          
+          <a id="cart-button" href="/cart">
+            <button
+              id="CartDrawer-cart"
+              class="cart__checkout-button button"
+              name="cart-button"
+              {% if cart == empty %}
+                disabled
+              {% endif %}
+            >
+              Ir al carrito
+            </button>
+          </a>
 
-          <button
+          {% comment %} <button
             type="submit"
             id="CartDrawer-Checkout"
             class="cart__checkout-button button"
@@ -534,9 +547,9 @@
             {% if cart == empty %}
               disabled
             {% endif %}
-          >
+          > 
             {{ 'sections.cart.checkout' | t }}
-          </button>
+          </button>{% endcomment %}
         </div>
       </div>
     </div>

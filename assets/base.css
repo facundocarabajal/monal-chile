@@ -3518,3 +3518,7 @@ details-disclosure > details {
       position: inherit!important;
   }
 }
+
+a#cart-button {
+  width: 100%;
+}
