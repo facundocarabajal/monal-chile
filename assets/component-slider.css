@@ -404,6 +404,12 @@ slider-component.slider-component-full-width {
   border: none;
 }
 
+@media screen and (max-width: 749px) {
+  .slideshow__controls {
+    z-index: 2;
+  }
+}
+
 button.slideshow__autoplay.slider-button.no-js-hidden {
     display: none;
 }
