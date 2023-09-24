@@ -3512,7 +3512,7 @@ details-disclosure > details {
   }
 }
 
-//CUSTOMIZATIONS
+/* CUSTOMIZATIONS */
 @media (max-width: 768px) {
   .banner__media{
       position: inherit!important;
