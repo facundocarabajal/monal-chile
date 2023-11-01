@@ -65,6 +65,7 @@
         "template--21005992493363__88a12dd2-437f-4384-95f7-053ceecc75d6-slide-2",
         "b5f606bd-01e8-45be-932c-61b9ac8abc2a"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -113,7 +114,6 @@
         "2ecb3593-af58-426c-abc2-5315f9fbabcb",
         "button"
       ],
-      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/orcaaero_3_RAN18.gif",
         "image_overlay_opacity": 20,
