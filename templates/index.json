@@ -116,6 +116,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/orcaaero_3_RAN18.gif",
+        "image_2": "shopify:\/\/shop_images\/orbea-banner-collection.png",
         "image_overlay_opacity": 20,
         "image_height": "large",
         "desktop_content_position": "middle-right",
