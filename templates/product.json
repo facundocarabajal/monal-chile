@@ -59,14 +59,14 @@
         "26969111-59b3-4ad4-9d50-ddb23b356c7a": {
           "type": "complementary",
           "settings": {
-            "block_heading": "Este producto se suele acompañar con",
-            "make_collapsible_row": false,
+            "block_heading": "Este producto va genial con estos ↓",
+            "make_collapsible_row": true,
             "icon": "price_tag",
-            "product_list_limit": 3,
-            "products_per_page": 3,
+            "product_list_limit": 1,
+            "products_per_page": 4,
             "pagination_style": "dots",
-            "image_ratio": "square",
-            "enable_quick_add": false
+            "image_ratio": "portrait",
+            "enable_quick_add": true
           }
         }
       },
