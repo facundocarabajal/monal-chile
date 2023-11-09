@@ -62,8 +62,8 @@
             "block_heading": "Este producto va genial con estos ↓",
             "make_collapsible_row": true,
             "icon": "price_tag",
-            "product_list_limit": 3,
-            "products_per_page": 4,
+            "product_list_limit": 4,
+            "products_per_page": 2,
             "pagination_style": "dots",
             "image_ratio": "square",
             "enable_quick_add": true
