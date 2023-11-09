@@ -55,6 +55,19 @@
             "icon_3": "truck",
             "heading_3": "Heading"
           }
+        },
+        "26969111-59b3-4ad4-9d50-ddb23b356c7a": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Este producto se suele acompañar con",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 3,
+            "products_per_page": 3,
+            "pagination_style": "dots",
+            "image_ratio": "square",
+            "enable_quick_add": false
+          }
         }
       },
       "block_order": [
@@ -65,7 +78,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "e143edb5-2309-4438-a9a4-857fd935f22e"
+        "e143edb5-2309-4438-a9a4-857fd935f22e",
+        "26969111-59b3-4ad4-9d50-ddb23b356c7a"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -106,6 +120,7 @@
         "template--20803307667763__34ee0ffe-902e-4a13-9b24-568d3311391d-slide-1": {
           "type": "slide",
           "settings": {
+            "image_link": "",
             "image": "{{ product.metafields.custom.pdp_banner.value }}",
             "heading": "",
             "heading_size": "h1",
@@ -124,6 +139,7 @@
         "template--20803307667763__34ee0ffe-902e-4a13-9b24-568d3311391d-slide-2": {
           "type": "slide",
           "settings": {
+            "image_link": "",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
