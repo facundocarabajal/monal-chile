@@ -62,7 +62,7 @@
             "block_heading": "Este producto va genial con estos ↓",
             "make_collapsible_row": true,
             "icon": "price_tag",
-            "product_list_limit": 1,
+            "product_list_limit": 3,
             "products_per_page": 4,
             "pagination_style": "dots",
             "image_ratio": "portrait",
@@ -98,6 +98,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
