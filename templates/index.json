@@ -6,7 +6,6 @@
         "template--21005992493363__88a12dd2-437f-4384-95f7-053ceecc75d6-slide-1": {
           "type": "slide",
           "settings": {
-            "image_link": "",
             "image": "shopify:\/\/shop_images\/Monal_negro_sobre_blanco_0f4edfcb-591c-40c5-9aec-005a2e690556.jpg",
             "heading": "",
             "heading_size": "h2",
@@ -25,7 +24,6 @@
         "template--21005992493363__88a12dd2-437f-4384-95f7-053ceecc75d6-slide-2": {
           "type": "slide",
           "settings": {
-            "image_link": "",
             "image": "shopify:\/\/shop_images\/racing-through-city.jpg",
             "heading": "",
             "heading_size": "h2",
@@ -44,7 +42,6 @@
         "b5f606bd-01e8-45be-932c-61b9ac8abc2a": {
           "type": "slide",
           "settings": {
-            "image_link": "",
             "heading": "",
             "heading_size": "h2",
             "subheading": "",
@@ -65,7 +62,6 @@
         "template--21005992493363__88a12dd2-437f-4384-95f7-053ceecc75d6-slide-2",
         "b5f606bd-01e8-45be-932c-61b9ac8abc2a"
       ],
-      "disabled": true,
       "custom_css": [
 
       ],
@@ -85,7 +81,6 @@
       "blocks": {
         "heading": {
           "type": "heading",
-          "disabled": true,
           "settings": {
             "heading": "MONAL",
             "heading_size": "h1"
@@ -93,7 +88,6 @@
         },
         "2ecb3593-af58-426c-abc2-5315f9fbabcb": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "Representante oficial de ORBEA en chile",
             "text_style": "body"
@@ -102,9 +96,9 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "CTA LABEL",
+            "button_label_1": "Ver mas",
             "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -116,15 +110,16 @@
         "2ecb3593-af58-426c-abc2-5315f9fbabcb",
         "button"
       ],
+      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/fast-bike-racing.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "bottom-center",
+        "image": "shopify:\/\/shop_images\/orcaaero_3_RAN18.gif",
+        "image_overlay_opacity": 20,
+        "image_height": "large",
+        "desktop_content_position": "middle-right",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "inverse",
-        "image_behavior": "none",
+        "image_behavior": "zoom-in",
         "mobile_content_alignment": "right",
         "stack_images_on_mobile": true,
         "show_text_below": false
@@ -228,7 +223,7 @@
         "title": "",
         "heading_size": "h2",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 5,
         "color_scheme": "accent-1",
         "show_view_all": false,
         "columns_mobile": "2",
@@ -276,6 +271,7 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "",
         "image_behavior": "zoom-in",
         "mobile_content_alignment": "left",
@@ -322,6 +318,7 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "",
         "image_behavior": "ambient",
         "mobile_content_alignment": "left",
