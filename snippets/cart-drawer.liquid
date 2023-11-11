@@ -512,7 +512,20 @@
               {{ 'sections.cart.update' | t }}
             </button>
           </noscript>
-
+          {% comment %} Agrego elemnto a nuevo para redirigir al carrito  {% endcomment %}
+          <a id="cart-button" href="/cart">
+            <button
+              id="CartDrawer-cart"
+              class="cart__checkout-button button"
+              name="cart-button"
+              {% if cart == empty %}
+                disabled
+              {% endif %}
+            >
+              Ir al carrito
+            </button>
+          </a>
+          {% comment %} Oculto botón original de shopify
           <button
             type="submit"
             id="CartDrawer-Checkout"
@@ -525,6 +538,7 @@
           >
             {{ 'sections.cart.checkout' | t }}
           </button>
+          {% endcomment %}
         </div>
       </div>
     </div>
