@@ -175,7 +175,7 @@
 
 .banner__media-half.animate--fixed:first-child > img,
 .banner__media-half.animate--zoom-in:first-child > img {
-  width: 50%;
+  width: 100%;
 }
 
 .banner__media-half.animate--fixed:nth-child(2) > img,
@@ -477,5 +477,29 @@
   .banner--desktop-transparent .inline-richtext a:hover,
   .banner--desktop-transparent .rte a:hover {
     color: currentColor;
+  }
+}
+
+/* CUSTOMIZATIONS */
+
+/* Estilos para imagen DSK y MOB diferentes */
+.banner__media:first-child {
+  width: 100%;
+}
+.banner__media+.banner__media {
+  display: none;
+}
+@media screen and (max-width: 749px) {
+  .banner__media:first-child {
+      display: none;
+  }
+  .banner__media+.banner__media {
+      width: 100%;
+      display: block !important;
+  }
+}
+@media screen and (max-width: 749px) {
+  .banner__content::before{
+      padding-bottom: 150% !important;
   }
 }
