@@ -156,6 +156,11 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
     max-width: var(--page-width);
     padding: 0 5rem;
   }
+
+  .collection-list{
+    padding: 0 1rem;
+  }
+
 }
 
 .isolate {
