@@ -110,9 +110,9 @@
         "2ecb3593-af58-426c-abc2-5315f9fbabcb",
         "button"
       ],
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/orcaaero_3_RAN18.gif",
+        "image": "shopify:\/\/shop_images\/fast-bike-racing.jpg",
+        "image_2": "shopify:\/\/shop_images\/image_14_99356dc7-e3a1-4fd0-85a9-5845606e20d6.png",
         "image_overlay_opacity": 20,
         "image_height": "large",
         "desktop_content_position": "middle-right",
