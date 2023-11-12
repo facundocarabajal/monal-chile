@@ -62,11 +62,12 @@
             "enable_quick_add": false
           }
         },
-        "601d0a84-8779-4e7d-a04a-0b40e1fc0cff": {
-          "type": "popup",
+        "ea48b376-c764-45cd-8f49-79cd755aee6b": {
+          "type": "inventory",
           "settings": {
-            "text": "Pop-up link text",
-            "page": "contact"
+            "text_style": "uppercase",
+            "inventory_threshold": 21,
+            "show_inventory_quantity": false
           }
         }
       },
@@ -80,7 +81,7 @@
         "description",
         "share",
         "2a67a500-d575-48e6-a65f-a03d0a466cf8",
-        "601d0a84-8779-4e7d-a04a-0b40e1fc0cff"
+        "ea48b376-c764-45cd-8f49-79cd755aee6b"
       ],
       "settings": {
         "enable_sticky_info": true,
