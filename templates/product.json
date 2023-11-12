@@ -19,7 +19,7 @@
           "type": "inventory",
           "settings": {
             "text_style": "uppercase",
-            "inventory_threshold": 0,
+            "inventory_threshold": 43,
             "show_inventory_quantity": false
           }
         },
