@@ -68,6 +68,13 @@
             "image_ratio": "square",
             "enable_quick_add": true
           }
+        },
+        "87725d5d-f7b5-4e8e-a024-66ecf931044a": {
+          "type": "popup",
+          "settings": {
+            "text": "Pop-up link text",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -79,7 +86,8 @@
         "buy_buttons",
         "description",
         "e143edb5-2309-4438-a9a4-857fd935f22e",
-        "26969111-59b3-4ad4-9d50-ddb23b356c7a"
+        "26969111-59b3-4ad4-9d50-ddb23b356c7a",
+        "87725d5d-f7b5-4e8e-a024-66ecf931044a"
       ],
       "settings": {
         "enable_sticky_info": true,
