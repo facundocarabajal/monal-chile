@@ -78,8 +78,9 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
-        "heading": "You may also like",
+        "heading": "También podría interesarte",
         "heading_size": "h2",
         "products_to_show": 4,
         "columns_desktop": 4,
@@ -93,10 +94,119 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "6faa177a-291e-4eac-a327-cec0acd70713": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/racing-through-city.jpg",
+        "image_2": "shopify:\/\/shop_images\/fast-bike-racing.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "2a759980-49c2-4f5d-b400-194fe2a83f75": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--21615255552307__2a759980-49c2-4f5d-b400-194fe2a83f75-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--21615255552307__2a759980-49c2-4f5d-b400-194fe2a83f75-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--21615255552307__2a759980-49c2-4f5d-b400-194fe2a83f75-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--21615255552307__2a759980-49c2-4f5d-b400-194fe2a83f75-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21615255552307__2a759980-49c2-4f5d-b400-194fe2a83f75-collapsible_row-1",
+        "template--21615255552307__2a759980-49c2-4f5d-b400-194fe2a83f75-collapsible_row-2",
+        "template--21615255552307__2a759980-49c2-4f5d-b400-194fe2a83f75-collapsible_row-3",
+        "template--21615255552307__2a759980-49c2-4f5d-b400-194fe2a83f75-collapsible_row-4"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "704f418e-3583-4e12-805d-dcc479f79226": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "frontpage",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "6faa177a-291e-4eac-a327-cec0acd70713",
+    "2a759980-49c2-4f5d-b400-194fe2a83f75",
+    "704f418e-3583-4e12-805d-dcc479f79226"
   ]
 }
