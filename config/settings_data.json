@@ -117,6 +117,7 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Monal_negro_sobre_blanco_Medium_7c2eb40a-4404-44b5-9091-4f1c564945e1.png",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
